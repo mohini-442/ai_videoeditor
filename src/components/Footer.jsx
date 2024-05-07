@@ -1,13 +1,13 @@
 import React from 'react'
-import { Instagram, Linkedin, Logo, Twitter } from '../common/icons'
+import { Instagram, Linkedin, Logo, Twitter,Starsvg2 } from '../common/icons'
 
 const Footer = () => {
     return (
-        <div className='bg-black pt-24 '>
+        <div className='bg-black pt-24 relative z-10'>
             <div className='max-w-[1140px] mx-auto px-3 pb-20'>
                 <div className='flex flex-wrap flex-row'>
                     <div className='lg:w-7/12 w-full'>
-                        <Logo />
+                        <a href=""> <Logo /></a>
                         <p className='text-offwhite2 text-base font-normal font-plus leading-6 pt-1 max-w-s'>Demobites is dedicated to providing innovative solutions for content creation, designed to empower individuals and businesses to unleash their creativity and captivate their audience</p>
                     </div>
                     <div className='lg:w-5/12 w-full pt-5 lg:pt-0'>
@@ -48,6 +48,9 @@ const Footer = () => {
             </div>
             <div className='w-full h-[1px] bg-lightgrey'></div>
             <p className='text-offwhite2 text-base font-normal font-plus leading-6 py-4 text-center'>© 2024 Demobites. All Rights Reserved</p>
+            <div className='absolute bottom-20 right-16 -z-10 ' >
+                <Starsvg2 />
+            </div>
         </div>
     )
 }
