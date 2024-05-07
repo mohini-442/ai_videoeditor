@@ -13,8 +13,8 @@ const AIContentForge = () => {
                     <div className='lg:w-5/12 px-3 pt-10'>
                         {myarray1.map((data, index) => (
                             <div key={index}>
-                                <h2 className='text-black font-bold text-xs leading-41'>{data.heading}</h2>
-                                <p className=' font-plus font-normal text-base leading-6 text-offblack pt-3 '>{data.heading2}</p>
+                                <h2 className='text-black font-bold text-xs leading-41'>AI Video Editor</h2>
+                                <p className=' font-plus font-normal text-base leading-6 text-offblack pt-3'>Transforming Your Content ExperienceRevolutionize your video editing process with our AI-powered Video Editor.</p>
                                 <div className='pt-3'>
                                     <div className='flex gap-1 items-center'>
                                         <Circle />
