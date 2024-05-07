@@ -10,34 +10,22 @@ const AIContentForge = () => {
         <div className='relative z-10'>
             <div className='max-w-[1140px] 2xl:max-w-[1320px] px-3 mx-auto pt-44'>
                 <div className='flex flex-wrap flex-row pt-9'>
-                    <div className='lg:w-5/12 px-3 pt-10'>
+                    <div className='lg:w-7/12 px-3 pt-10'>
+                        <h2 className='text-black font-bold text-xs leading-41'>AI Video Editor</h2>
+                        <p className=' font-plus font-normal text-base leading-6 text-offblack pt-3'>Transforming Your Content ExperienceRevolutionize your video editing process with our AI-powered Video Editor.</p>
                         {myarray1.map((data, index) => (
                             <div key={index}>
-                                <h2 className='text-black font-bold text-xs leading-41'>AI Video Editor</h2>
-                                <p className=' font-plus font-normal text-base leading-6 text-offblack pt-3'>Transforming Your Content ExperienceRevolutionize your video editing process with our AI-powered Video Editor.</p>
                                 <div className='pt-3'>
                                     <div className='flex gap-1 items-center'>
                                         <Circle />
                                         <p className='font-plus font-normal text-base leading-6 text-offblack'>{data.para}</p>
                                     </div>
-                                    <div className='flex gap-1 items-center pt-2'>
-                                        <Circle />
-                                        <p className='font-plus font-normal text-base leading-6 text-offblack'>{data.para2}</p>
-                                    </div>
-                                    <div className='flex gap-1 items-center pt-2'>
-                                        <Circle />
-                                        <p className='font-plus font-normal text-base leading-6 text-offblack'>{data.para3}</p>
-                                    </div>
-                                    <div className='flex gap-1 items-center pt-2'>
-                                        <Circle />
-                                        <p className='font-plus font-normal text-base leading-6 text-offblack'>{data.para4}</p>
-                                    </div>
                                 </div>
-                                <Button />
                             </div>
                         ))}
+                        <Button />
                     </div>
-                    <div className='lg:w-7/12 px-3'>
+                    <div className='lg:w-5/12 px-3'>
                         <img src={videoeditor} alt="videoeditor" />
                     </div>
 

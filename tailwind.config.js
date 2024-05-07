@@ -20,11 +20,13 @@ module.exports = {
         purplep: '#625DF5',
         offwhite: '#CBC9F4',
         offwhite2: '#B2B2B2',
+        lightgrey: '#2b2b2b',
       },
       backgroundImage: {
         "gradient-1": "linear-gradient(107.9deg, #0C5FD1 1.25%, #8703C5 93.71%)",
       },
       maxWidth: {
+        s: '424px',
         sm: '562px',
       },
       width: {
