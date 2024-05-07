@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     fontSize: {
       xs: '32px',
+      ss: '40px',
       md: '48px',
     },
     extend: {
@@ -15,6 +16,7 @@ module.exports = {
       },
       lineHeight: {
         '41': '41.6px',
+        '44': '44px'
       },
       colors: {
         offblack: '#4A4A4D',
@@ -28,6 +30,7 @@ module.exports = {
       },
       maxWidth: {
         s: '424px',
+        xs: '440px',
         sm: '562px',
       },
       width: {
